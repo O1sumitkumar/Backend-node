@@ -1,3 +1,5 @@
+// this how we gonna create server in node js
+
 const http = require('node:http');
 const data = require('./data')
 // const chalk = require('chalk');
