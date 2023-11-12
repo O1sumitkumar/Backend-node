@@ -22,7 +22,7 @@ fs.readdir(dirPath, (err, data) => {
   console.log("Reading", data);
 });
 
-// this fumction will update file value
+// this function will update file value
 let fd;
 try {
   //? Open the file in append mode
@@ -45,7 +45,7 @@ fs.readFile(fileToBeRead, "utf-8", (err, data) => {
 // this function will rename file
 fs.rename(fileToBeRead, `${dirPath}/newFile.txt`, (err) => {
   if (err) throw err;
-  console.log("File renaame successfully");
+  console.log("File rename successfully");
 });
 
 // this function will delete file
