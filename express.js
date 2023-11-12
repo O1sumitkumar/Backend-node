@@ -1,6 +1,6 @@
 const express = require("express");
 
-// Here how we gonna use experss
+// Here how we gonna use express
 const app = express();
 
 // this is how we send request query string with html
@@ -26,7 +26,7 @@ app.get("/json", (req, res) => {
   res.send({ name: " sumit", email: "sumitjha365@gmail.com" });
 });
 
-// if you have multiple data thgen you can send as array of object
+// if you have multiple data then you can send as array of object
 
 app.get("/array-data", (re, res) => {
   res.send([

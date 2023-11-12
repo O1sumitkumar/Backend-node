@@ -46,7 +46,7 @@ app.get("/home", isEmailProvided, (req, res) => {
 });
 
 
-// ? Which ever routes has 'route.get()' will have middleware effect on that
+// ? Which ever routes has 'route.get()' will have middleware effect on that.
 route.get("/about", (req, res) => {
   res.send("This is about page");
 });
@@ -59,5 +59,5 @@ route.get("/help", (req, res) => {
   res.send("This is help page");
 });
 
-// ? You have to pass route to 'app.use("/",middlewareName)'
+// ? You have to pass route to 'app.use("/",middlewareName)'.
 app.use("/", route);
