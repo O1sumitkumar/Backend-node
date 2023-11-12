@@ -27,3 +27,9 @@ app.get("/", (_, res) => {
   };
   res.render("profile", { user });
 });
+
+// this wil, show using common file
+
+app.get("/dashboard", (_, res) => {
+  res.render("dashboard");
+});
