@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>template profile</title>
+  </head>
+  <body style="background-color: whitesmoke; text-align: center">
+    <h1 style="color: rgb(224, 110, 129)">
+      This is 'Ejs' template generated profile page...📟📃
+    </h1>
+    <br />
+    <h2>Welcome to <%= user.name %> profile 🤏😎</h2>
+    <h2>Contact me : <%= user.email %></h2>
+    <h2>My age is : <%= user.age %></h2>
+    <br />
+
+    <!-- this is how we loop data in template engines -->
+    <ul>
+      <% user.skills.forEach((item) => { %>
+      <li
+        style="
+          list-style: none;
+          color: rgb(236, 62, 62);
+          font-size: large;
+          font-weight: 600;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        <%= item %>
+      </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+const express = require("express");
+
+const app = express();
+
+// here we inform that you have to use this template to view
+app.set("view engine", "ejs");
+
+app.listen(5000, () => {
+  console.log("You api is running on port 💁‍♀️ 5000");
+});
+
+// this will automatically call profile page from the view folder
+app.get("/", (_, res) => {
+  const user = {
+    name: "Sumeet kumar jha",
+    email: "sumeetjha365@gmail.com",
+    age: 22,
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+    ],
+  };
+  res.render("profile", { user });
+});
