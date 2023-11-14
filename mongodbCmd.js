@@ -12,6 +12,8 @@
 
 // * To delete dataBase ==> db.dropDatabase( 'dataBaseName' )
 
+//* To delete collection ==> db.collectionName.drop()
+
 // * To Show all the collection ==> show collections
 
 // * To delete DB ==> db.dropDatabase()
