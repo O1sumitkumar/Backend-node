@@ -1,10 +1,14 @@
 ![ CallBack image](image.png)
 ![query string](image-1.png)
 ![types of middleware](image-2.png)
+![osFun](image-3.png)
+![event](image-4.png)
+![mysql](image-5.png)
+![sql res text](image-6.png)
+![Alt text](image-7.png)
 // middleware only use with routes.
 
 // MongoDB CRUD Command
-
 
 // To get MongoDB list ==> show dbs
 
@@ -12,17 +16,17 @@
 
 // ? if created db does not have any collection then that db doesn't show in GUI list as well as in CLI .
 
-// * To Create DB ==> use collectionName
+// \* To Create DB ==> use collectionName
 
-// * To Create collection in DB ==> db.createCollection( 'collectionName' ) 
+// \* To Create collection in DB ==> db.createCollection( 'collectionName' )
 
-// * To delete dataBase ==> db.dropDatabase( 'dataBaseName' )
+// \* To delete dataBase ==> db.dropDatabase( 'dataBaseName' )
 
-// * To Show all the collection ==> show collections
+// \* To Show all the collection ==> show collections
 
-// * To delete DB ==> db.dropDatabase()
+// \* To delete DB ==> db.dropDatabase()
 
-// * To get current db ==> just type db and enter
+// \* To get current db ==> just type db and enter
 
 // first got to the collection then ==> db.user.insertOne({ name:"", data:"" })
 
